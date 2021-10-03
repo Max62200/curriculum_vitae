@@ -1458,3 +1458,18 @@ html, body, html * {
       }
 
 }
+
+.dark-mode {
+    background-color: #68C6E4;
+    color: white;
+  }
+
+
+ .light
+{
+     font-size: 30px;
+     color: black;
+     padding: 1%;
+     position: fixed;
+}
+

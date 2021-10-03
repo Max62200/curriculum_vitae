@@ -19,7 +19,9 @@
 
    <body class="bg-1 ">
 
-        <div class="container">
+        <i class="fas fa-lightbulb light" onclick="myFunction()"></i>
+
+            <div class="container">
                 <div class="square-title">
                 <h1 class="name">Maxence <span class="span1">PODEVIN</span></h1>
                 <h2 class="name2">Développeur Web Mobile & appli </h2>
@@ -189,6 +191,7 @@
         
          <script> 
 
+
         //Get the button:
         mybutton = document.getElementById("myBtn");
 
@@ -209,6 +212,20 @@
         document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
         </script>
+
+        <script>
+
+        function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+        
+        }
+        
+        </script>
+
+       
+
+        
     </body>
     
 </html>
