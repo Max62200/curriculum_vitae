@@ -3,6 +3,8 @@ html, body, html * {
   font-family: 'Roboto', sans-serif;
 }
 
+*{scroll-behavior: smooth;}
+
 .bg-1
 {
     background-color: #12769B;
@@ -67,6 +69,19 @@ html, body, html * {
     
 }
 
+.big-title2
+{
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+   
+    
+}
+
 .icon
 {
     font-size: 30px;
@@ -80,6 +95,19 @@ html, body, html * {
     color: black;
     font-weight: bolder;
     margin-top: 2.5%;
+    
+}
+
+.icon2:hover
+{
+    transform: scale(1.15);
+    transition: ease all 500ms;
+}
+
+.icon2:active
+{
+    transform: scale(1.15);
+    transition: ease all 500ms;
 }
 
 .icon3
@@ -124,6 +152,18 @@ html, body, html * {
     width:40%;
     margin-left: 15%;
     margin-top: 2.5%;
+}
+
+.logo:hover
+{
+    transform: scale(1.15);
+    transition: ease all 500ms;
+}
+
+.logo:active
+{
+    transform: scale(1.15);
+    transition: ease all 500ms;
 }
 
 .square-transition
@@ -184,7 +224,1237 @@ html, body, html * {
 
 .logo-loisirs
 {
-    width: 17.5%;
-    margin: 3%;
-    padding: 1%;
+    width: 90%;
+    padding: 14%;
+}
+
+.D-row2
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7.5%;
+    margin-bottom: 5%;
+    
+    
+    
+}
+
+.bulle:hover span, .bulle:focus span{
+    transform:scale(1) rotate(0);
+    opacity:1;        
+  }
+  
+  .bulle span{
+    position:absolute;
+    margin-top:-3%;
+    margin-left:-30%;
+    background:rgba(10, 10, 10, 0.9);
+    padding:10px;
+    border-radius:30px;
+    box-shadow:0 0 2px rgba(0,0,0,.5);
+    transform:scale(0) rotate(-12deg);
+    transition:all .25s;
+    opacity:0;
+    color:rgb(248, 248, 246);
+    font-size: 12px;
+  }
+
+#myBtn 
+{
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 80px; /* Place the button at the bottom of the page */
+    right: 15px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(12, 11, 11); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 12px; /* Increase font size */
+    opacity: 0.6;
+  }
+  
+  #myBtn:hover 
+  {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+
+  @media only screen and (min-width: 415px) and (max-width: 815px) and (orientation: landscape){
+
+    @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html, body, html * {
+  font-family: 'Roboto', sans-serif;
+}
+
+*{scroll-behavior: smooth;}
+
+.bg-1
+{
+    background-color: #12769B;
+    border: 5px black solid;
+    
+}
+
+.square-title
+{
+    background-color: black;
+    height: 120px;
+    margin-top: 9%;
+    margin-left: 15%;
+    width:75%;
+    -webkit-transform:skew(-20deg);
+	-moz-transform:skew(-20deg);
+	-o-transform:skew(-20deg);
+	tranform:skew(-20deg);
+    
+}
+
+.name
+{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top:5%;
+    
+}
+
+.name2
+{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    padding-top:2.5%;
+    font-style: italic;
+    
+}
+
+.span1{text-decoration: underline;}
+
+.picture-me
+{
+    width: 50%;
+    margin: 25%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border: 5px solid black;
+    box-shadow: 20px 20px 20px;
+}
+
+.big-title
+{
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+   
+    
+}
+
+.big-title2
+{
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+   
+    
+}
+
+
+.icon
+{
+    font-size: 40px;
+    color: black;
+    font-weight: bolder;
+}
+
+.icon2
+{
+    font-size: 75px;
+    color: black;
+    font-weight: bolder;
+    margin-top: 2.5%;
+    
+}
+
+.icon2:hover
+{
+    transform: scale(1.15);
+    transition: ease all 500ms;
+}
+
+.icon2:active
+{
+    transform: scale(1.15);
+    transition: ease all 500ms;
+}
+
+.icon3
+{
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+    margin-top: 2%;
+}
+
+
+.info
+{
+    margin-left:2.5%;
+    font-size:27.5px;
+    color: white;
+}
+
+.link
+{
+    color: white;
+
+}
+
+.link:hover
+{
+    color: black;
+}
+
+.D-row
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    margin-bottom: 2.5%;
+    
+    
+}
+
+.logo
+{
+    width:40%;
+    margin-left: 15%;
+    margin-top: 2.5%;
+}
+
+.logo:hover
+{
+    transform: scale(1.15);
+    transition: ease all 500ms;
+}
+
+.logo:active
+{
+    transform: scale(1.15);
+    transition: ease all 500ms;
+}
+
+.square-transition
+{
+    height: 300px;
+    margin-top: 6%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    width: 100%;
+    background-color: #3E3E3E;
+
+}
+
+.laptop
+{
+    width: 50%;
+    margin: 7.5%;
+    margin-left: 25%;
+}
+
+.list
+{
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    margin-left: 15%;
+    
+}
+
+.span3{font-weight: bolder;}
+
+
+.cercle{
+    margin:15px;
+    width:150px;
+    background:#fafafa;
+    height:150px;
+    text-align:center;
+    border-radius:50%;
+    line-height: 30px;
+    border: 8px solid black;
+    background-color: #38B6FF;
+}
+
+.inline {
+
+    display: flex;
+    flex-direction: column;
+   margin-left: 20%;
+    
+}
+
+.stack{
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    margin-top: 17.5%;
+
+}
+
+.logo-loisirs
+{
+    width: 90%;
+    padding: 14%;
+}
+
+.D-row2
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 7.5%;
+    margin-bottom: 5%;
+    
+    
+    
+}
+
+.bulle:hover span, .bulle:focus span{
+    transform:scale(1) rotate(0);
+    opacity:1;        
+  }
+  
+  .bulle span{
+    position:absolute;
+    margin-top:-3%;
+    margin-left:-15%;
+    background:rgba(10, 10, 10, 0.9);
+    padding:10px;
+    border-radius:30px;
+    box-shadow:0 0 2px rgba(0,0,0,.5);
+    transform:scale(0) rotate(-12deg);
+    transition:all .25s;
+    opacity:0;
+    color:rgb(248, 248, 246);
+    font-size: 12px;
+  }
+
+#myBtn 
+{
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 80px; /* Place the button at the bottom of the page */
+    right: 15px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(12, 11, 11); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 12px; /* Increase font size */
+    opacity: 0.6;
+  }
+  
+  #myBtn:hover 
+  {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+}
+
+@media screen and (min-width: 540px) and (max-width: 769px)
+{
+    @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+    html, body, html * {
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    *{scroll-behavior: smooth;}
+    
+    .bg-1
+    {
+        background-color: #12769B;
+        border: 5px black solid;
+        
+    }
+    
+    .square-title
+    {
+        background-color: black;
+        height: 120px;
+        margin-top: 9%;
+        margin-left: 15%;
+        width:75%;
+        -webkit-transform:skew(-20deg);
+        -moz-transform:skew(-20deg);
+        -o-transform:skew(-20deg);
+        tranform:skew(-20deg);
+        
+    }
+    
+    .name
+    {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        padding-top:5%;
+        
+    }
+    
+    .name2
+    {
+        font-size: 22px;
+        color: white;
+        text-align: center;
+        padding-top:2.5%;
+        font-style: italic;
+        
+    }
+    
+    .span1{text-decoration: underline;}
+    
+    .picture-me
+    {
+        width: 50%;
+        margin: 25%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        border: 5px solid black;
+        box-shadow: 20px 20px 20px;
+    }
+    
+    .big-title
+    {
+        font-size: 35px;
+        color: black;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 4%;
+        margin-bottom: 5%;
+        text-decoration: underline;
+       
+        
+    }
+    
+    .big-title2
+{
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+   
+    
+}
+
+    .icon
+    {
+        font-size: 40px;
+        color: black;
+        font-weight: bolder;
+    }
+    
+    .icon2
+    {
+        font-size: 75px;
+        color: black;
+        font-weight: bolder;
+        margin-top: 2.5%;
+        
+    }
+    
+    .icon2:hover
+    {
+        transform: scale(1.15);
+        transition: ease all 500ms;
+    }
+    
+    .icon2:active
+    {
+        transform: scale(1.15);
+        transition: ease all 500ms;
+    }
+    
+    .icon3
+    {
+        font-size: 25px;
+        color: black;
+        font-weight: bolder;
+        margin-top: 2%;
+    }
+    
+    
+    .info
+    {
+        margin-left:2.5%;
+        font-size:27.5px;
+        color: white;
+    }
+    
+    .link
+    {
+        color: white;
+    
+    }
+    
+    .link:hover
+    {
+        color: black;
+    }
+    
+    .D-row
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 40%;
+        margin-bottom: 2.5%;
+        
+        
+    }
+    
+    .logo
+    {
+        width:40%;
+        margin-left: 15%;
+        margin-top: 2.5%;
+    }
+    
+    .logo:hover
+    {
+        transform: scale(1.15);
+        transition: ease all 500ms;
+    }
+    
+    .logo:active
+    {
+        transform: scale(1.15);
+        transition: ease all 500ms;
+    }
+    
+    .square-transition
+    {
+        height: 300px;
+        margin-top: 6%;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+        width: 100%;
+        background-color: #3E3E3E;
+    
+    }
+    
+    .laptop
+    {
+        width: 50%;
+        margin: 7.5%;
+        margin-left: 25%;
+    }
+    
+    .list
+    {
+        color: white;
+        font-size: 20px;
+        list-style: none;
+        margin-left: 15%;
+        
+    }
+    
+    .span3{font-weight: bolder;}
+    
+    
+    .cercle{
+        margin:15px;
+        width:150px;
+        background:#fafafa;
+        height:150px;
+        text-align:center;
+        border-radius:50%;
+        line-height: 30px;
+        border: 8px solid black;
+        background-color: #38B6FF;
+    }
+    
+    .inline {
+    
+        display: flex;
+        flex-direction: column;
+       margin-left: 20%;
+        
+    }
+    
+    .stack{
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+        margin-top: 17.5%;
+    
+    }
+    
+    .logo-loisirs
+    {
+        width: 90%;
+        padding: 14%;
+    }
+    
+    .D-row2
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 7.5%;
+        margin-bottom: 5%;
+        
+        
+        
+    }
+    
+    .bulle:hover span, .bulle:focus span{
+        transform:scale(1) rotate(0);
+        opacity:1;        
+      }
+      
+      .bulle span{
+        position:absolute;
+        margin-top:-3%;
+        margin-left:-15%;
+        background:rgba(10, 10, 10, 0.9);
+        padding:10px;
+        border-radius:30px;
+        box-shadow:0 0 2px rgba(0,0,0,.5);
+        transform:scale(0) rotate(-12deg);
+        transition:all .25s;
+        opacity:0;
+        color:rgb(248, 248, 246);
+        font-size: 12px;
+      }
+    
+    #myBtn 
+    {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 80px; /* Place the button at the bottom of the page */
+        right: 15px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: rgb(12, 11, 11); /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 10px; /* Rounded corners */
+        font-size: 12px; /* Increase font size */
+        opacity: 0.6;
+      }
+      
+      #myBtn:hover 
+      {
+        background-color: #555; /* Add a dark-grey background on hover */
+      }
+}
+
+@media only screen and (min-width: 816px) and (max-width: 1223px){
+
+    @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+    html, body, html * {
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    *{scroll-behavior: smooth;}
+    
+    .bg-1
+    {
+        background-color: #12769B;
+        border: 5px black solid;
+        
+    }
+    
+    .square-title
+    {
+        background-color: black;
+        height: 120px;
+        margin-top: 9%;
+        margin-left: 15%;
+        width:75%;
+        -webkit-transform:skew(-20deg);
+        -moz-transform:skew(-20deg);
+        -o-transform:skew(-20deg);
+        tranform:skew(-20deg);
+        
+    }
+    
+    .name
+    {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        padding-top:2.5%;
+        
+    }
+    
+    .name2
+    {
+        font-size: 22px;
+        color: white;
+        text-align: center;
+        padding-top:2.5%;
+        font-style: italic;
+        
+    }
+    
+    .span1{text-decoration: underline;}
+    
+    .picture-me
+    {
+        width: 50%;
+        margin: 25%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        border: 5px solid black;
+        box-shadow: 20px 20px 20px;
+    }
+    
+    .big-title
+    {
+        font-size: 35px;
+        color: black;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 4%;
+        margin-bottom: 5%;
+        text-decoration: underline;
+       
+        
+    }
+
+    .big-title2
+{
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+   
+    
+}
+
+    
+    .icon
+    {
+        font-size: 40px;
+        color: black;
+        font-weight: bolder;
+    }
+    
+    .icon2
+    {
+        font-size: 75px;
+        color: black;
+        font-weight: bolder;
+        margin-top: 2.5%;
+        
+    }
+    
+    .icon2:hover
+    {
+        transform: scale(1.15);
+        transition: ease all 500ms;
+    }
+    
+    .icon2:active
+    {
+        transform: scale(1.15);
+        transition: ease all 500ms;
+    }
+    
+    .icon3
+    {
+        font-size: 25px;
+        color: black;
+        font-weight: bolder;
+        margin-top: 2%;
+    }
+    
+    
+    .info
+    {
+        margin-left:2.5%;
+        font-size:27.5px;
+        color: white;
+    }
+    
+    .link
+    {
+        color: white;
+    
+    }
+    
+    .link:hover
+    {
+        color: black;
+    }
+    
+    .D-row
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 40%;
+        margin-bottom: 2.5%;
+        
+        
+    }
+    
+    .logo
+    {
+        width:40%;
+        margin-left: 15%;
+        margin-top: 2.5%;
+    }
+    
+    .logo:hover
+    {
+        transform: scale(1.15);
+        transition: ease all 500ms;
+    }
+    
+    .logo:active
+    {
+        transform: scale(1.15);
+        transition: ease all 500ms;
+    }
+    
+    .square-transition
+    {
+        height: 300px;
+        margin-top: 6%;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+        width: 100%;
+        background-color: #3E3E3E;
+    
+    }
+    
+    .laptop
+    {
+        width: 50%;
+        margin: 5%;
+        margin-left: 25%;
+    }
+    
+    .list
+    {
+        color: white;
+        font-size: 25px;
+        list-style: none;
+        margin-left: 15%;
+        
+    }
+    
+    .span3{font-weight: bolder;}
+    
+    
+    .cercle{
+        margin:15px;
+        width:150px;
+        background:#fafafa;
+        height:150px;
+        text-align:center;
+        border-radius:50%;
+        line-height: 30px;
+        border: 8px solid black;
+        background-color: #38B6FF;
+    }
+    
+    .inline {
+    
+        display: flex;
+        flex-direction: column;
+       margin-left: 20%;
+        
+    }
+    
+    .stack{
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+        margin-top: 17.5%;
+    
+    }
+    
+    .logo-loisirs
+    {
+        width: 90%;
+        padding: 14%;
+    }
+    
+    .D-row2
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 7.5%;
+        margin-bottom: 5%;
+        
+        
+        
+    }
+    
+    .bulle:hover span, .bulle:focus span{
+        transform:scale(1) rotate(0);
+        opacity:1;        
+      }
+      
+      .bulle span{
+        position:absolute;
+        margin-top:-3%;
+        margin-left:-15%;
+        background:rgba(10, 10, 10, 0.9);
+        padding:10px;
+        border-radius:30px;
+        box-shadow:0 0 2px rgba(0,0,0,.5);
+        transform:scale(0) rotate(-12deg);
+        transition:all .25s;
+        opacity:0;
+        color:rgb(248, 248, 246);
+        font-size: 12px;
+      }
+    
+    #myBtn 
+    {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 80px; /* Place the button at the bottom of the page */
+        right: 15px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: rgb(12, 11, 11); /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 10px; /* Rounded corners */
+        font-size: 12px; /* Increase font size */
+        opacity: 0.6;
+      }
+      
+      #myBtn:hover 
+      {
+        background-color: #555; /* Add a dark-grey background on hover */
+      }
+
+
+
+}
+
+
+@media only screen and (min-width: 1224px){
+
+
+    @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+    html, body, html * {
+      font-family: 'Roboto', sans-serif;
+    }
+    
+    *{scroll-behavior: smooth;}
+    
+    .bg-1
+    {
+        background-color: #12769B;
+        border: 5px black solid;
+        
+    }
+    
+    .square-title
+    {
+        background-color: black;
+        height:200px;
+        margin-top: 9%;
+        margin-left: 15%;
+        width:75%;
+        -webkit-transform:skew(-20deg);
+        -moz-transform:skew(-20deg);
+        -o-transform:skew(-20deg);
+        tranform:skew(-20deg);
+        
+    }
+    
+    .name
+    {
+        font-size: 50px;
+        color: white;
+        text-align: center;
+        padding-top:2.5%;
+        
+    }
+    
+    .name2
+    {
+        font-size: 35px;
+        color: white;
+        text-align: center;
+        padding-top:2.5%;
+        font-style: italic;
+        
+    }
+    
+    .span1{text-decoration: underline;}
+    
+    .picture-me
+    {
+        width: 35%;
+        margin: 5%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        border: 5px solid black;
+        box-shadow: 20px 20px 20px;
+    }
+
+  
+
+    .row3{ display: flex;
+        flex-direction: row;
+        margin-top: 5%;
+    }
+    
+      
+    .big-title
+    {
+        font-size: 35px;
+        color: black;
+        font-weight: bolder;
+        text-align: center;
+       
+        text-decoration: underline;
+       
+        
+    }
+
+    .big-title2
+    {
+        font-size: 35px;
+        color: black;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 14%;
+        margin-bottom: 2%;
+        text-decoration: underline;
+       
+        
+    }
+    
+    .icon
+    {
+        font-size: 40px;
+        color: black;
+        font-weight: bolder;
+    }
+    
+    .icon2
+    {
+        font-size: 75px;
+        color: black;
+        font-weight: bolder;
+        margin-top: 2.5%;
+        
+    }
+    
+    .icon2:hover
+    {
+        transform: scale(1.15);
+        transition: ease all 500ms;
+    }
+    
+    .icon2:active
+    {
+        transform: scale(1.15);
+        transition: ease all 500ms;
+    }
+    
+    .icon3
+    {
+        font-size: 25px;
+        color: black;
+        font-weight: bolder;
+        margin-top: 2%;
+    }
+    
+    
+    .info
+    {
+        margin-left:2.5%;
+        font-size:27.5px;
+        color: white;
+    }
+    
+    .link
+    {
+        color: white;
+    
+    }
+    
+    .link:hover
+    {
+        color: black;
+    }
+    
+    .D-row
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 40%;
+        margin-bottom: 2.5%;
+        
+        
+    }
+    
+    .logo
+    {
+        width:40%;
+        margin-left: 15%;
+        margin-top: 2.5%;
+    }
+    
+    .logo:hover
+    {
+        transform: scale(1.15);
+        transition: ease all 500ms;
+    }
+    
+    .logo:active
+    {
+        transform: scale(1.15);
+        transition: ease all 500ms;
+    }
+    
+    .square-transition
+    {
+        height: 450px;
+        margin-top: 6%;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+        width: 100%;
+        background-color: #3E3E3E;
+    
+    }
+    
+    .laptop
+    {
+        width: 40%;
+        margin: 5%;
+        margin-left:30%;
+    }
+    
+    .list
+    {
+        color: white;
+        font-size: 22px;
+        list-style: none;
+        margin-left: 15%;
+        
+    }
+    
+    .span3{font-weight: bolder;}
+    
+    
+    .cercle{
+        margin:15px;
+        width:150px;
+        background:#fafafa;
+        height:150px;
+        text-align:center;
+        border-radius:50%;
+        line-height: 30px;
+        border: 8px solid black;
+        background-color: #38B6FF;
+    }
+    
+    .inline {
+    
+        display: flex;
+        flex-direction: column;
+       margin-left: 20%;
+        
+    }
+    
+    .stack{
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+        margin-top: 17.5%;
+    
+    }
+    
+    .logo-loisirs
+    {
+        width: 70%;
+        padding: 14%;
+    }
+    
+    .D-row2
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 7.5%;
+        margin-bottom: 5%;
+        
+        
+        
+    }
+    
+    .bulle:hover span, .bulle:focus span{
+        transform:scale(1) rotate(0);
+        opacity:1;        
+      }
+      
+      .bulle span{
+        position:absolute;
+        margin-top:-3%;
+        margin-left:-15%;
+        background:rgba(10, 10, 10, 0.9);
+        padding:10px;
+        border-radius:30px;
+        box-shadow:0 0 2px rgba(0,0,0,.5);
+        transform:scale(0) rotate(-12deg);
+        transition:all .25s;
+        opacity:0;
+        color:rgb(248, 248, 246);
+        font-size: 20px;
+      }
+    
+    #myBtn 
+    {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 80px; /* Place the button at the bottom of the page */
+        right: 15px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: rgb(12, 11, 11); /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 10px; /* Rounded corners */
+        font-size: 12px; /* Increase font size */
+        opacity: 0.6;
+      }
+      
+      #myBtn:hover 
+      {
+        background-color: #555; /* Add a dark-grey background on hover */
+      }
+
 }
