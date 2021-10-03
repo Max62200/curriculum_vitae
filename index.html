@@ -19,28 +19,33 @@
 
    <body class="bg-1 ">
 
-        <i class="fas fa-lightbulb light" onclick="myFunction()"></i>
+        <i class="fas fa-lightbulb light" onclick="myFunction(), myFunction2()"></i>
 
             <div class="container">
-                <div class="square-title">
+                <div class="squaretitle, square-title">
                 <h1 class="name">Maxence <span class="span1">PODEVIN</span></h1>
                 <h2 class="name2">Développeur Web Mobile & appli </h2>
                 
                 </div>
 
-                <div class="display">                    
+                <div>                    
                 
                 
 
-                
-                    <img class="picture-me" src="./img/picture_me.png" alt=""><h2 class="big-title2">CONTACT</h2>
-                        <div class="row3">
+                 <div class="row4">
+                    <img class="picture-me" src="./img/picture_me.png" alt="">
+                    
+                   <div> <h2 class="big-title2">CONTACT</h2></div>
+                       
 
+                         <div class="div-info">  
                             <p class="info"><i class="fas fa-map-marker-alt icon"></i>&nbsp; 18, rue des Bergeronnettes <br> 62360 Saint Léonard </p><br>
 
                             <p class="info"><i class="far fa-envelope icon"></i> &nbsp; <a class="link" HREF="mailto:podevinmaxence@gmail.com"> podevinmaxence@gmail.com</a> </p><br>
 
                             <p class="info"><i class="fas fa-mobile-alt icon"></i>&nbsp; &nbsp; 06 18 00 18 03 </p><br>
+                        </div> 
+
                         </div>
                         
                         <div class="D-row row3">
@@ -218,12 +223,18 @@
         function myFunction() {
         var element = document.body;
         element.classList.toggle("dark-mode");
-        
         }
         
         </script>
 
-       
+           {# <script>
+
+        function myFunction2() {
+        var element = document.square-title;
+        element.classList.add("squaretitle");
+        }
+        
+        </script> #}
 
         
     </body>
