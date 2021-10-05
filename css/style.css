@@ -96,6 +96,19 @@ html, body, html * {
     
 }
 
+.big-title3
+{
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+   
+    
+}
+
 .icon
 {
     font-size: 30px;
@@ -311,6 +324,27 @@ html, body, html * {
     font-size: 12px;
   }
 
+  .bulle2:hover span, .bulle2:focus span{
+    transform:scale(1) rotate(0);
+    opacity:1;        
+  }
+  
+  .bulle2 span{
+    position:absolute;
+    margin-top:-3%;
+    margin-left:-15%;
+    background:rgba(10, 10, 10, 0.9);
+    padding:10px;
+    border-radius:30px;
+    box-shadow:0 0 2px rgba(0,0,0,.5);
+    transform:scale(0) rotate(-12deg);
+    transition:all .25s;
+    opacity:0;
+    color:rgb(248, 248, 246);
+    font-size: 12px;
+  }
+
+
 #myBtn 
 {
     display: none; /* Hidden by default */
@@ -435,6 +469,18 @@ html, body, html * {
     
 }
 
+.big-title3
+{
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+   
+    
+}
 
 .icon
 {
@@ -631,6 +677,27 @@ html, body, html * {
     font-size: 12px;
   }
 
+  .bulle2:hover span, .bulle2:focus span{
+    transform:scale(1) rotate(0);
+    opacity:1;        
+  }
+  
+  .bulle2 span{
+    position:absolute;
+    margin-top:-3%;
+    margin-left:-15%;
+    background:rgba(10, 10, 10, 0.9);
+    padding:10px;
+    border-radius:30px;
+    box-shadow:0 0 2px rgba(0,0,0,.5);
+    transform:scale(0) rotate(-12deg);
+    transition:all .25s;
+    opacity:0;
+    color:rgb(248, 248, 246);
+    font-size: 12px;
+  }
+
+
 #myBtn 
 {
     display: none; /* Hidden by default */
@@ -744,6 +811,19 @@ html, body, html * {
     }
     
     .big-title2
+{
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+   
+    
+}
+
+.big-title3
 {
     font-size: 35px;
     color: black;
@@ -949,6 +1029,27 @@ html, body, html * {
         color:rgb(248, 248, 246);
         font-size: 12px;
       }
+
+      .bulle2:hover span, .bulle2:focus span{
+        transform:scale(1) rotate(0);
+        opacity:1;        
+      }
+      
+      .bulle2 span{
+        position:absolute;
+        margin-top:-3%;
+        margin-left:-15%;
+        background:rgba(10, 10, 10, 0.9);
+        padding:10px;
+        border-radius:30px;
+        box-shadow:0 0 2px rgba(0,0,0,.5);
+        transform:scale(0) rotate(-12deg);
+        transition:all .25s;
+        opacity:0;
+        color:rgb(248, 248, 246);
+        font-size: 12px;
+      }
+    
     
     #myBtn 
     {
@@ -1063,6 +1164,19 @@ html, body, html * {
     }
 
     .big-title2
+{
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    text-decoration: underline;
+   
+    
+}
+
+.big-title3
 {
     font-size: 35px;
     color: black;
@@ -1273,7 +1387,27 @@ html, body, html * {
         transition:all .25s;
         opacity:0;
         color:rgb(248, 248, 246);
-        font-size: 12px;
+        font-size: 30px;
+      }
+
+      .bulle2:hover span, .bulle2:focus span{
+        transform:scale(1) rotate(0);
+        opacity:1;        
+      }
+      
+      .bulle2 span{
+        position:absolute;
+        margin-top:-3%;
+        margin-left:-15%;
+        background:rgba(10, 10, 10, 0.9);
+        padding:10px;
+        border-radius:30px;
+        box-shadow:0 0 2px rgba(0,0,0,.5);
+        transform:scale(0) rotate(-12deg);
+        transition:all .25s;
+        opacity:0;
+        color:rgb(248, 248, 246);
+        font-size: 30px;
       }
     
     #myBtn 
@@ -1423,6 +1557,8 @@ html, body, html * {
        
         
     }
+
+    
     
     .icon
     {
@@ -1612,15 +1748,15 @@ html, body, html * {
     
     .logo-loisirs
     {
-        width: 70%;
-        padding: 14%;
+        width: 50%;
+        padding: 4%;
+        margin-left: 45%;
     }
     
     .D-row2
     {
         display: flex;
         flex-direction: row;
-        margin-left: 7.5%;
         margin-bottom: 5%;
         
         
@@ -1631,6 +1767,8 @@ html, body, html * {
         transform:scale(1) rotate(0);
         opacity:1;        
       }
+
+     
       
       .bulle span{
         position:absolute;
@@ -1646,12 +1784,34 @@ html, body, html * {
         color:rgb(248, 248, 246);
         font-size: 20px;
       }
+
+      .bulle2 span{
+        position:absolute;
+        margin-top:-3%;
+        margin-left:-5%;
+        background:rgba(10, 10, 10, 0.9);
+        padding:10px;
+        border-radius:30px;
+        box-shadow:0 0 2px rgba(0,0,0,.5);
+        transform:scale(0) rotate(-12deg);
+        transition:all .25s;
+        opacity:0;
+        color:rgb(248, 248, 246);
+        font-size:18px;
+      }
+
+      .bulle2:hover span, .bulle2:focus span{
+        transform:scale(1) rotate(0);
+        opacity:1;        
+      }
+      
+    
     
     #myBtn 
     {
         display: none; /* Hidden by default */
         position: fixed; /* Fixed/sticky position */
-        bottom: 80px; /* Place the button at the bottom of the page */
+        bottom: 40px; /* Place the button at the bottom of the page */
         right: 15px; /* Place the button 30px from the right */
         z-index: 99; /* Make sure it does not overlap */
         border: none; /* Remove borders */
@@ -1671,9 +1831,66 @@ html, body, html * {
       }
 
       /* skills bar */
-                    
+      
+      .circle-chart-wrap{padding:20px; text-align:center;}
+      .circle-chart-wrap .circle-chart{margin:50px 15px; display:inline-block; vertical-align:top;}
+      .circle-chart,
+      .circle-chart *{box-sizing:border-box;}
+      .circle-chart{width:160px; height:160px; position:relative; opacity:0;}
+      .circle-chart .chart-box{width:100%; height:100%; padding:7px;}
+      .circle-chart .chart-circle-base{position:absolute; left:0; top:0; right:0; bottom:0; border:14px solid white; border-radius:50%;}
+      .circle-chart .chart-box svg{width:100%; height:100%; overflow:visible; position:relative;
+        transform: rotateY(180deg) rotate(-90deg);
+      }
+      .chart-circle-progress{fill:transparent; stroke-width:14; stroke:black;}
+      .circle-chart .per-num{width:100%; margin:-17px 0 0; text-align:center; font-size:20px; font-weight:bold; color:rgb(250, 248, 248); position:absolute; left:0; top:50%;}
+      .circle-chart .per-num span{font-size:25px; vertical-align:-1px;}
+      
+      .active.circle-chart{opacity:1}
+      .active .chart-circle-progress{
+        -ms-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+        transition: all 1s ease-out;
+      }
+      
+      .circle-chart.theme02 .per-num{color: white;}
+      .circle-chart.theme02 .chart-circle-progress{stroke:black;}
+      .circle-chart.theme03 .per-num{color:white;}
+      .circle-chart.theme03 .chart-circle-progress{stroke:black;}
+      .circle-chart.theme04 .per-num{color:white;}
+      .circle-chart.theme04 .chart-circle-progress{stroke:black;}
+      .circle-chart.theme05 .per-num{color:white;}
+      .circle-chart.theme05 .chart-circle-progress{stroke:black;}
+      
+      
+      .text-skill{
+          color:white;
+          font-weight: bold;
+          font-family: Roboto;
+          font-size: 20px;
+      }
+        
+        
       /* skills bar */
 
+      .logo-icon{font-size: 60px;}
+
+      .d-position{display: flex;}
+
+      .margin-hobbies{margin-left: 15%;}
+      
+      .width-list{width: 200%;
+    margin-left: -50%;}
+      .big-title3
+        {
+          margin-top: 12%;
+          margin-bottom: 15%;
+          font-size: 35px;
+            color: black;
+            font-weight: bolder;
+            text-align: center;
+            text-decoration: underline;
+        }
 }
 
 .dark-mode {
