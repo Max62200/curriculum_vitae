@@ -26,6 +26,20 @@ html, body, html * {
     
 }
 
+.dark-mode .square-title
+{
+    background-color: #12769B;
+    height: 90px;
+    margin-top: 9%;
+    margin-left: 15%;
+    width:75%;
+    -webkit-transform:skew(-20deg);
+	-moz-transform:skew(-20deg);
+	-o-transform:skew(-20deg);
+	tranform:skew(-20deg);
+    
+}
+
 .name
 {
     font-size: 20px;
@@ -118,6 +132,26 @@ html, body, html * {
     margin-top: 2%;
 }
 
+.icon4
+{
+    font-size: 65px;
+    color: black;
+    font-weight: bolder;
+    margin-top: 2%;
+}
+
+.icon4:hover
+{
+    transform: scale(1.15);
+    transition: ease all 500ms;
+}
+
+.icon4:active
+{
+    transform: scale(1.15);
+    transition: ease all 500ms;
+}
+
 
 .info
 {
@@ -129,6 +163,7 @@ html, body, html * {
 .link
 {
     color: white;
+    margin-right: -17%;
 
 }
 
@@ -141,7 +176,7 @@ html, body, html * {
 {
     display: flex;
     flex-direction: row;
-    margin-left: 25%;
+    margin-left: 10%;
     margin-bottom: 2.5%;
     
     
@@ -152,6 +187,7 @@ html, body, html * {
     width:40%;
     margin-left: 15%;
     margin-top: 2.5%;
+    padding-right: -25%;
 }
 
 .logo:hover
@@ -174,6 +210,17 @@ html, body, html * {
     border-bottom: 3px solid black;
     width: 100%;
     background-color: #3E3E3E;
+
+}
+
+.dark-mode .square-transition
+{
+    height: 200px;
+    margin-top: 6%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    width: 100%;
+    background-color:white;
 
 }
 
@@ -204,6 +251,11 @@ html, body, html * {
     line-height: 20px;
     border: 8px solid black;
     background-color: #38B6FF;
+}
+
+.display-4
+{
+    display: none;
 }
 
 .inline {
@@ -311,6 +363,19 @@ html, body, html * {
 	-o-transform:skew(-20deg);
 	tranform:skew(-20deg);
     
+}
+
+.dark-mode .square-title
+{
+    background-color: #12769b;
+    height: 120px;
+    margin-top: 9%;
+    margin-left: 15%;
+    width:75%;
+    -webkit-transform:skew(-20deg);
+	-moz-transform:skew(-20deg);
+	-o-transform:skew(-20deg);
+	tranform:skew(-20deg); 
 }
 
 .name
@@ -466,6 +531,16 @@ html, body, html * {
 
 }
 
+.dark-mode .square-transition
+{
+    height: 300px;
+    margin-top: 6%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    width: 100%;
+    background-color: white;
+}
+
 .laptop
 {
     width: 50%;
@@ -495,6 +570,12 @@ html, body, html * {
     line-height: 30px;
     border: 8px solid black;
     background-color: #38B6FF;
+}
+
+
+.display-4
+{
+    display: none;
 }
 
 .inline {
@@ -603,6 +684,19 @@ html, body, html * {
         -o-transform:skew(-20deg);
         tranform:skew(-20deg);
         
+    }
+
+    .dark-mode .square-title
+    {
+        background-color: #12769b;
+        height: 120px;
+        margin-top: 9%;
+        margin-left: 15%;
+        width:75%;
+        -webkit-transform:skew(-20deg);
+        -moz-transform:skew(-20deg);
+        -o-transform:skew(-20deg);
+        tranform:skew(-20deg);
     }
     
     .name
@@ -730,7 +824,7 @@ html, body, html * {
     .logo
     {
         width:40%;
-        margin-left: 15%;
+        margin-left: 12.5%;
         margin-top: 2.5%;
     }
     
@@ -755,6 +849,16 @@ html, body, html * {
         width: 100%;
         background-color: #3E3E3E;
     
+    }
+
+    .dark-mode .square-transition
+    {
+        height: 300px;
+        margin-top: 6%;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+        width: 100%;
+        background-color: white;
     }
     
     .laptop
@@ -787,7 +891,12 @@ html, body, html * {
         border: 8px solid black;
         background-color: #38B6FF;
     }
-    
+
+    .display-4
+    {
+        display: none;
+    }
+        
     .inline {
     
         display: flex;
@@ -894,6 +1003,20 @@ html, body, html * {
         tranform:skew(-20deg);
         
     }
+
+    .dark-mode .square-title
+    {
+        background-color: #12769b;
+        height: 120px;
+        margin-top: 9%;
+        margin-left: 15%;
+        width:75%;
+        -webkit-transform:skew(-20deg);
+        -moz-transform:skew(-20deg);
+        -o-transform:skew(-20deg);
+        tranform:skew(-20deg); 
+    }
+    
     
     .name
     {
@@ -989,6 +1112,8 @@ html, body, html * {
         margin-top: 2%;
     }
     
+
+      .icon4{margin-left: 57%;}
     
     .info
     {
@@ -1005,7 +1130,7 @@ html, body, html * {
     
     .link:hover
     {
-        color: black;
+        color: black;margin-right: 15%;
     }
     
     .D-row
@@ -1023,6 +1148,8 @@ html, body, html * {
         width:40%;
         margin-left: 15%;
         margin-top: 2.5%;
+        
+        
     }
     
     .logo:hover
@@ -1036,6 +1163,8 @@ html, body, html * {
         transform: scale(1.15);
         transition: ease all 500ms;
     }
+
+    .icon4{margin-left: 57%;}
     
     .square-transition
     {
@@ -1046,6 +1175,16 @@ html, body, html * {
         width: 100%;
         background-color: #3E3E3E;
     
+    }
+
+    .dark-mode .square-transition
+    {
+        height: 300px;
+        margin-top: 6%;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+        width: 100%;
+        background-color: white;
     }
     
     .laptop
@@ -1078,6 +1217,11 @@ html, body, html * {
         border: 8px solid black;
         background-color: #38B6FF;
     }
+
+    .display-4
+        {
+            display: none;
+        }
     
     .inline {
     
@@ -1189,6 +1333,19 @@ html, body, html * {
         -o-transform:skew(-20deg);
         tranform:skew(-20deg);
         
+    }
+
+    .dark-mode .square-title
+    {
+        background-color: #12769b;
+        height:200px;
+        margin-top: 9%;
+        margin-left: 15%;
+        width:75%;
+        -webkit-transform:skew(-20deg);
+        -moz-transform:skew(-20deg);
+        -o-transform:skew(-20deg);
+        tranform:skew(-20deg);
     }
     
     .name
@@ -1303,12 +1460,14 @@ html, body, html * {
         margin-top: 2%;
     }
     
-    
+    .icon4{margin-left:100%;}
+
     .info
     {
         margin-left:2.5%;
         font-size:27.5px;
         color: white;
+        width: 100%;
     }
     
     .link
@@ -1361,6 +1520,16 @@ html, body, html * {
         background-color: #3E3E3E;
     
     }
+
+    .dark-mode .square-transition
+    {
+        height: 300px;
+        margin-top: 6%;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+        width: 100%;
+        background-color: white; 
+    }
     
     .laptop
     {
@@ -1375,6 +1544,7 @@ html, body, html * {
         font-size: 22px;
         list-style: none;
         margin-left: 15%;
+        width: 100%;
         
     }
 
@@ -1430,6 +1600,14 @@ html, body, html * {
         color: white;
         margin-top: 17.5%;
     
+    }
+
+    .display-3{
+        display: none;
+    }
+
+    .display-4{
+        display: block;
     }
     
     .logo-loisirs
@@ -1491,6 +1669,10 @@ html, body, html * {
       {
         background-color: #555; /* Add a dark-grey background on hover */
       }
+
+      /* skills bar */
+                    
+      /* skills bar */
 
 }
 
