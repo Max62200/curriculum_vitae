@@ -1908,3 +1908,14 @@ html, body, html * {
      position: fixed;
 }
 
+.light:hover
+{
+     transform: scale(1.15);
+    transition: ease all 500ms;
+}
+
+.light:active
+{
+     transform: scale(1.15);
+    transition: ease all 500ms;
+}
