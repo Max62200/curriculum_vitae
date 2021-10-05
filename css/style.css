@@ -1919,3 +1919,5 @@ html, body, html * {
      transform: scale(1.15);
     transition: ease all 500ms;
 }
+
+a{color: black;}
