@@ -71,8 +71,9 @@ a{color: white;}
 
 .picture-me
 {
-    width: 80%;
-    margin: 5%;
+    content: url("../img/picture_me_tel.png");   
+    width: 100%;
+    
     margin-top: 10%;
     border: 5px solid black;
     box-shadow: 20px 20px 20px;
@@ -473,6 +474,7 @@ a{color: white;}
     margin-bottom: 5%;
     border: 5px solid black;
     box-shadow: 20px 20px 20px;
+    content: url("../img/picture_me2.png");   
 }
 
 .big-title
@@ -847,6 +849,7 @@ a{color: white;}
         margin-bottom: 5%;
         border: 5px solid black;
         box-shadow: 20px 20px 20px;
+        content: url("../img/picture_me2.png"); 
     }
     
     .big-title
@@ -1215,6 +1218,7 @@ a{color: white;}
         margin-bottom: 5%;
         border: 5px solid black;
         box-shadow: 20px 20px 20px;
+        content: url("../img/picture_me2.png"); 
     }
     
     .big-title
@@ -1593,6 +1597,7 @@ a{color: white;}
         margin-bottom: 5%;
         border: 5px solid black;
         box-shadow: 20px 20px 20px;
+        content: url("../img/picture_me2.png"); 
     }
 
   
