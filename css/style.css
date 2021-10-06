@@ -4,6 +4,12 @@ html, body, html * {
   font-family: 'Roboto', sans-serif;
 }
 
+.marg
+{
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+
 *{scroll-behavior: smooth;}
 a{color: white;}
 .bg-1
@@ -20,10 +26,10 @@ a{color: white;}
     margin-top: 9%;
     margin-left: 15%;
     width:75%;
-    -webkit-transform:skew(-20deg);
-	-moz-transform:skew(-20deg);
-	-o-transform:skew(-20deg);
-	tranform:skew(-20deg);
+    transform:skew(-20deg);
+	transform:skew(-20deg);
+	transform:skew(-20deg);
+	transform:skew(-20deg);
     
 }
 
@@ -34,10 +40,10 @@ a{color: white;}
     margin-top: 9%;
     margin-left: 15%;
     width:75%;
-    -webkit-transform:skew(-20deg);
-	-moz-transform:skew(-20deg);
-	-o-transform:skew(-20deg);
-	tranform:skew(-20deg);
+    transform:skew(-20deg);
+	transform:skew(-20deg);
+	transform:skew(-20deg);
+	transform:skew(-20deg);
     
 }
 
@@ -119,7 +125,7 @@ a{color: white;}
 
 .icon2
 {
-    font-size: 75px;
+    font-size: 65px;
     color: black;
     font-weight: bolder;
     margin-top: 2.5%;
@@ -148,10 +154,11 @@ a{color: white;}
 
 .icon4
 {
-    font-size: 65px;
+    font-size: 60px;
     color: black;
     font-weight: bolder;
     margin-top: 2%;
+    margin-left: -5%;
 }
 
 .icon4:hover
@@ -190,15 +197,21 @@ a{color: white;}
 {
     display: flex;
     flex-direction: row;
-    margin-left: 10%;
-    margin-bottom: 2.5%;
+    margin-left: 18%;
+    margin-bottom: 9.5%;
+    margin-top: 10%;
     
     
 }
 
+.row8
+{
+    display: flex;
+    margin-left: -5%;
+}
 .logo
 {
-    width:40%;
+    width:35%;
     margin-left: 15%;
     margin-top: 2.5%;
     padding-right: -25%;
@@ -250,6 +263,7 @@ a{color: white;}
     font-size: 13px;
     list-style: none;
     
+    
 }
 
 .span3{font-weight: bolder;}
@@ -282,11 +296,21 @@ a{color: white;}
 
 .stack{
     font-weight: bold;
-    font-size: 11px;
+    font-size: 10px;
     color: white;
-    margin-top: 17.5%;
+    margin-top: 25%;
 
 }
+
+.stack2{
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 10%;
+    margin-top: 10%;
+
+}
+
 
 .logo-loisirs
 {
@@ -386,6 +410,12 @@ html, body, html * {
     
 }
 
+.marg
+{
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
 .square-title
 {
     background-color: black;
@@ -393,10 +423,10 @@ html, body, html * {
     margin-top: 9%;
     margin-left: 15%;
     width:75%;
-    -webkit-transform:skew(-20deg);
-	-moz-transform:skew(-20deg);
-	-o-transform:skew(-20deg);
-	tranform:skew(-20deg);
+    transform:skew(-20deg);
+	transform:skew(-20deg);
+	transform:skew(-20deg);
+	transform:skew(-20deg);
     
 }
 
@@ -407,10 +437,10 @@ html, body, html * {
     margin-top: 9%;
     margin-left: 15%;
     width:75%;
-    -webkit-transform:skew(-20deg);
-	-moz-transform:skew(-20deg);
-	-o-transform:skew(-20deg);
-	tranform:skew(-20deg); 
+    transform:skew(-20deg);
+	transform:skew(-20deg);
+	transform:skew(-20deg);
+	transform:skew(-20deg);
 }
 
 .name
@@ -641,6 +671,16 @@ html, body, html * {
 
 }
 
+.stack2{
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10%;
+    margin-top: 10%;
+
+}
+
+
 .logo-loisirs
 {
     width: 90%;
@@ -739,6 +779,12 @@ html, body, html * {
         border: 5px black solid;
         
     }
+
+    .marg
+{
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
     
     .square-title
     {
@@ -747,11 +793,11 @@ html, body, html * {
         margin-top: 9%;
         margin-left: 15%;
         width:75%;
-        -webkit-transform:skew(-20deg);
-        -moz-transform:skew(-20deg);
-        -o-transform:skew(-20deg);
-        tranform:skew(-20deg);
-        
+        transform:skew(-20deg);
+        transform:skew(-20deg);
+        transform:skew(-20deg);
+        transform:skew(-20deg);
+            
     }
 
     .dark-mode .square-title
@@ -761,10 +807,10 @@ html, body, html * {
         margin-top: 9%;
         margin-left: 15%;
         width:75%;
-        -webkit-transform:skew(-20deg);
-        -moz-transform:skew(-20deg);
-        -o-transform:skew(-20deg);
-        tranform:skew(-20deg);
+        transform:skew(-20deg);
+        transform:skew(-20deg);
+        transform:skew(-20deg);
+        transform:skew(-20deg);
     }
     
     .name
@@ -988,11 +1034,21 @@ html, body, html * {
     
     .stack{
         font-weight: bold;
-        font-size: 18px;
+        font-size: 17px;
         color: white;
         margin-top: 17.5%;
     
     }
+
+    .stack2{
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    
+    }
+    
     
     .logo-loisirs
     {
@@ -1084,6 +1140,12 @@ html, body, html * {
     }
     
     *{scroll-behavior: smooth;}
+
+    .marg
+{
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
     
     .bg-1
     {
@@ -1099,11 +1161,11 @@ html, body, html * {
         margin-top: 9%;
         margin-left: 15%;
         width:75%;
-        -webkit-transform:skew(-20deg);
-        -moz-transform:skew(-20deg);
-        -o-transform:skew(-20deg);
-        tranform:skew(-20deg);
-        
+        transform:skew(-20deg);
+        transform:skew(-20deg);
+        transform:skew(-20deg);
+        transform:skew(-20deg);
+            
     }
 
     .dark-mode .square-title
@@ -1113,10 +1175,10 @@ html, body, html * {
         margin-top: 9%;
         margin-left: 15%;
         width:75%;
-        -webkit-transform:skew(-20deg);
-        -moz-transform:skew(-20deg);
-        -o-transform:skew(-20deg);
-        tranform:skew(-20deg); 
+        transform:skew(-20deg);
+        transform:skew(-20deg);
+        transform:skew(-20deg);
+        transform:skew(-20deg);
     }
     
     
@@ -1348,11 +1410,21 @@ html, body, html * {
     
     .stack{
         font-weight: bold;
-        font-size: 18px;
+        font-size: 17px;
         color: white;
         margin-top: 17.5%;
     
     }
+
+    .stack2{
+        font-weight: bold;
+        font-size: 18px;
+        color: white;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    
+    }
+    
     
     .logo-loisirs
     {
@@ -1456,6 +1528,12 @@ html, body, html * {
         
     }
     
+    .marg
+    {
+        margin-left: 6%;
+        margin-bottom: 3%;
+    }
+
     .square-title
     {
         background-color: black;
@@ -1463,10 +1541,10 @@ html, body, html * {
         margin-top: 9%;
         margin-left: 15%;
         width:75%;
-        -webkit-transform:skew(-20deg);
-        -moz-transform:skew(-20deg);
-        -o-transform:skew(-20deg);
-        tranform:skew(-20deg);
+        transform:skew(-20deg);
+        transform:skew(-20deg);
+        transform:skew(-20deg);
+        transform:skew(-20deg);
         
     }
 
@@ -1477,10 +1555,10 @@ html, body, html * {
         margin-top: 9%;
         margin-left: 15%;
         width:75%;
-        -webkit-transform:skew(-20deg);
-        -moz-transform:skew(-20deg);
-        -o-transform:skew(-20deg);
-        tranform:skew(-20deg);
+        transform:skew(-20deg);
+        transform:skew(-20deg);
+        transform:skew(-20deg);
+        transform:skew(-20deg);
     }
     
     .name
