@@ -288,6 +288,16 @@ a{color: white;}
     
 }
 
+.list2
+{
+    color: white;
+    font-size: 18px;
+    list-style: none;
+    margin: 5%;
+    
+    
+}
+
 .span3{font-weight: bolder;}
 
 
@@ -680,6 +690,16 @@ a{color: white;}
     
 }
 
+.list2
+{
+    color: white;
+    font-size: 25px;
+    list-style: none;
+    margin: 5%;
+    
+    
+}
+
 .span3{font-weight: bolder;}
 
 
@@ -992,7 +1012,7 @@ a{color: white;}
     .info
     {
         margin-left:2.5%;
-        font-size:20px;
+        font-size:30px;
         color: white;
     }
     
@@ -1067,11 +1087,21 @@ a{color: white;}
     .list
     {
         color: white;
-        font-size: 15px;
+        font-size: 22px;
         list-style: none;
         margin-left: 15%;
         
     }
+
+    .list2
+{
+    color: white;
+    font-size: 30px;
+    list-style: none;
+    margin: 5%;
+    
+    
+}
     
     .span3{font-weight: bolder;}
     
@@ -1466,6 +1496,16 @@ a{color: white;}
         margin-left: 15%;
         
     }
+
+    .list2
+{
+    color: white;
+    font-size: 30px;
+    list-style: none;
+    margin: 5%;
+    
+    
+}
     
     .span3{font-weight: bolder;}
     
@@ -1868,6 +1908,16 @@ a{color: white;}
         
     }
 
+    .list2
+{
+    color: white;
+    font-size: 25px;
+    list-style: none;
+    margin: 5%;
+    
+    
+}
+
     .row5
     {
         display: flex;
@@ -2085,6 +2135,15 @@ a{color: white;}
             text-decoration: underline;
         }
 
+        ::-webkit-scrollbar {
+            width: 15px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #EEE;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: black;
+        }
         
 }
 
