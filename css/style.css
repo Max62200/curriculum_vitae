@@ -71,7 +71,7 @@ a{color: white;}
 
 .picture-me
 {
-    content: url("../img/picture_me_tel.png");   
+    content: url("../img/picture_me_tel.webp");   
     width: 85%;
     margin-top: 10%;
     margin-left: 10%;
@@ -86,7 +86,7 @@ a{color: white;}
 
 .dark-mode .picture-me
 {
-    content: url("../img/picture_me_tel2.png");   
+    content: url("../img/picture_me_tel2.webp");   
     width: 85%;
     margin-top: 10%;
     margin-left: 10%;
@@ -510,12 +510,12 @@ a{color: white;}
     margin-bottom: 5%;
     border: 5px solid black;
     box-shadow: 20px 20px 20px;
-    content: url("../img/picture_me2.png");   
+    content: url("../img/picture_me2.webp");   
 }
 
 .dark-mode .picture-me
 {
-    content: url("../img/picture_me_tel2.png");   
+    content: url("../img/picture_me_tel2.webp");   
     width: 50%;
     margin: 25%;
     margin-top: 10%;
@@ -911,12 +911,12 @@ a{color: white;}
         margin-bottom: 5%;
         border: 5px solid black;
         box-shadow: 20px 20px 20px;
-        content: url("../img/picture_me2.png"); 
+        content: url("../img/picture_me2.webp"); 
     }
     
     .dark-mode .picture-me
     {
-        content: url("../img/picture_me_tel2.png");   
+        content: url("../img/picture_me_tel2.webp");   
         width: 60%;
         margin-top: 10%;
         margin-left: 20%;
@@ -1314,12 +1314,12 @@ a{color: white;}
         margin-bottom: 5%;
         border: 5px solid black;
         box-shadow: 20px 20px 20px;
-        content: url("../img/picture_me2.png"); 
+        content: url("../img/picture_me2.webp"); 
     }
     
     .dark-mode .picture-me
     {
-        content: url("../img/picture_me_tel2.png");   
+        content: url("../img/picture_me_tel2.webp");   
         width: 50%;
         margin-top: 10%;
         margin-left: 25%;
@@ -1724,12 +1724,12 @@ a{color: white;}
         margin-bottom: 5%;
         border: 5px solid black;
         box-shadow: 20px 20px 20px;
-        content: url("../img/picture_me2.png"); 
+        content: url("../img/picture_me2.webp"); 
     }
 
     .dark-mode .picture-me
     {
-        content: url("../img/picture_me_tel2.png");   
+        content: url("../img/picture_me_tel2.webp");   
         width: 40%;
         margin: 5%;
             margin-top: 10%;
