@@ -228,6 +228,7 @@ a{color: white;}
     display: flex;
     margin-left: -5%;
 }
+
 .logo
 {
     width:35%;
@@ -849,10 +850,10 @@ a{color: white;}
     }
 
     .marg
-{
-    margin-left: 5%;
-    margin-bottom: 1%;
-}
+    {
+        margin-left: 5%;
+        margin-bottom: 1%;
+    }
     
     .square-title
     {
@@ -914,16 +915,16 @@ a{color: white;}
     }
     
     .dark-mode .picture-me
-{
-    content: url("../img/picture_me_tel2.png");   
-    width: 60%;
-    margin-top: 10%;
-    margin-left: 20%;
-    margin-bottom: 5%;
-    border: 5px solid black;
-    box-shadow: 20px 20px 20px;
-    border-radius: 33%;
-}
+    {
+        content: url("../img/picture_me_tel2.png");   
+        width: 60%;
+        margin-top: 10%;
+        margin-left: 20%;
+        margin-bottom: 5%;
+        border: 5px solid black;
+        box-shadow: 20px 20px 20px;
+        border-radius: 33%;
+    }
     .big-title
     {
         font-size: 30px;
@@ -938,30 +939,28 @@ a{color: white;}
     }
     
     .big-title2
-{
-    font-size: 30px;
-    color: black;
-    font-weight: bolder;
-    text-align: center;
-    margin-top: 4%;
-    margin-bottom: 5%;
-    text-decoration: underline;
-   
-    
-}
+    {
+        font-size: 30px;
+        color: black;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 4%;
+        margin-bottom: 5%;
+        text-decoration: underline;
+    }   
 
-.big-title3
-{
-    font-size: 30px;
-    color: black;
-    font-weight: bolder;
-    text-align: center;
-    margin-top: 4%;
-    margin-bottom: 5%;
-    text-decoration: underline;
-   
+    .big-title3
+    {
+        font-size: 30px;
+        color: black;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 4%;
+        margin-bottom: 5%;
+        text-decoration: underline;
     
-}
+        
+    }
 
     .icon
     {
@@ -1000,13 +999,13 @@ a{color: white;}
     }
 
     .icon4
-{
-    font-size: 60px;
-    color: black;
-    font-weight: bolder;
-    margin-top: 2%;
-    margin-left: -5%;
-}
+    {
+        font-size: 60px;
+        color: black;
+        font-weight: bolder;
+        margin-top: 2%;
+        margin-left: -5%;
+    }
     
     
     .info
@@ -1094,14 +1093,14 @@ a{color: white;}
     }
 
     .list2
-{
-    color: white;
-    font-size: 30px;
-    list-style: none;
-    margin: 5%;
-    
-    
-}
+    {
+        color: white;
+        font-size: 30px;
+        list-style: none;
+        margin: 5%;
+        
+        
+    }
     
     .span3{font-weight: bolder;}
     
@@ -1119,9 +1118,9 @@ a{color: white;}
     }
 
     .dark-mode .cercle
-{    
-    background-color:rgb(73, 73, 73);
-}
+    {    
+        background-color:rgb(73, 73, 73);
+    }
 
     .display-4
     {
@@ -1171,47 +1170,48 @@ a{color: white;}
         
     }
     
-    .bulle:hover span, .bulle:focus span{
+    .bulle:hover span, .bulle:focus span
+    {
         transform:scale(1) rotate(0);
         opacity:1;        
-      }
+    }
       
-      .bulle span{
-        position:absolute;
-        margin-top:-3%;
-        margin-left:-15%;
-        background:rgba(10, 10, 10, 0.9);
-        padding:10px;
-        border-radius:30px;
-        box-shadow:0 0 2px rgba(0,0,0,.5);
-        transform:scale(0) rotate(-12deg);
-        transition:all .25s;
-        opacity:0;
-        color:rgb(248, 248, 246);
-        font-size: 12px;
-      }
+    .bulle span{
+    position:absolute;
+    margin-top:-3%;
+    margin-left:-15%;
+    background:rgba(10, 10, 10, 0.9);
+    padding:10px;
+    border-radius:30px;
+    box-shadow:0 0 2px rgba(0,0,0,.5);
+    transform:scale(0) rotate(-12deg);
+    transition:all .25s;
+    opacity:0;
+    color:rgb(248, 248, 246);
+    font-size: 12px;
+    }
 
-      .bulle2:hover span, .bulle2:focus span{
-        transform:scale(1) rotate(0);
-        opacity:1;        
-      }
-      
-      .bulle2 span{
-        position:absolute;
-        margin-top:-3%;
-        margin-left:-15%;
-        background:rgba(10, 10, 10, 0.9);
-        padding:10px;
-        border-radius:30px;
-        box-shadow:0 0 2px rgba(0,0,0,.5);
-        transform:scale(0) rotate(-12deg);
-        transition:all .25s;
-        opacity:0;
-        color:rgb(248, 248, 246);
-        font-size: 12px;
-      }
+    .bulle2:hover span, .bulle2:focus span{
+    transform:scale(1) rotate(0);
+    opacity:1;        
+    }
     
-    
+    .bulle2 span{
+    position:absolute;
+    margin-top:-3%;
+    margin-left:-15%;
+    background:rgba(10, 10, 10, 0.9);
+    padding:10px;
+    border-radius:30px;
+    box-shadow:0 0 2px rgba(0,0,0,.5);
+    transform:scale(0) rotate(-12deg);
+    transition:all .25s;
+    opacity:0;
+    color:rgb(248, 248, 246);
+    font-size: 12px;
+    }
+
+
     #myBtn 
     {
         display: none; /* Hidden by default */
@@ -1245,10 +1245,10 @@ a{color: white;}
     *{scroll-behavior: smooth;}
 
     .marg
-{
-    margin-left: 5%;
-    margin-bottom: 1%;
-}
+    {
+        margin-left: 5%;
+        margin-bottom: 1%;
+    }
     
     .bg-1
     {
@@ -1318,16 +1318,16 @@ a{color: white;}
     }
     
     .dark-mode .picture-me
-{
-    content: url("../img/picture_me_tel2.png");   
-    width: 50%;
-    margin-top: 10%;
-    margin-left: 25%;
-    margin-bottom: 10%;
-    border: 5px solid black;
-    box-shadow: 20px 20px 20px;
-    border-radius: 33%;
-}
+    {
+        content: url("../img/picture_me_tel2.png");   
+        width: 50%;
+        margin-top: 10%;
+        margin-left: 25%;
+        margin-bottom: 10%;
+        border: 5px solid black;
+        box-shadow: 20px 20px 20px;
+        border-radius: 33%;
+    }
 
     .big-title
     {
@@ -1339,34 +1339,33 @@ a{color: white;}
         margin-bottom: 5%;
         text-decoration: underline;
        
-        
     }
 
     .big-title2
-{
-    font-size: 35px;
-    color: black;
-    font-weight: bolder;
-    text-align: center;
-    margin-top: 4%;
-    margin-bottom: 5%;
-    text-decoration: underline;
-   
+    {
+        font-size: 35px;
+        color: black;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 4%;
+        margin-bottom: 5%;
+        text-decoration: underline;
     
-}
+        
+    }
 
-.big-title3
-{
-    font-size: 35px;
-    color: black;
-    font-weight: bolder;
-    text-align: center;
-    margin-top: 4%;
-    margin-bottom: 5%;
-    text-decoration: underline;
-   
+    .big-title3
+    {
+        font-size: 35px;
+        color: black;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 4%;
+        margin-bottom: 5%;
+        text-decoration: underline;
     
-}
+        
+    }
 
     
     .icon
@@ -1498,14 +1497,14 @@ a{color: white;}
     }
 
     .list2
-{
-    color: white;
-    font-size: 30px;
-    list-style: none;
-    margin: 5%;
-    
-    
-}
+    {
+        color: white;
+        font-size: 30px;
+        list-style: none;
+        margin: 5%;
+        
+        
+    }
     
     .span3{font-weight: bolder;}
     
@@ -1523,24 +1522,25 @@ a{color: white;}
     }
 
     .dark-mode .cercle
-{    
-    background-color:rgb(73, 73, 73);
-}
+    {    
+        background-color:rgb(73, 73, 73);
+    }
 
     .display-4
-        {
-            display: none;
-        }
+    {
+        display: none;
+    }
     
-    .inline {
-    
+    .inline 
+    {
         display: flex;
         flex-direction: column;
-       margin-left: 20%;
+        margin-left: 20%;
         
     }
     
-    .stack{
+    .stack
+    {
         font-weight: bold;
         font-size: 17px;
         color: white;
@@ -1548,7 +1548,8 @@ a{color: white;}
     
     }
 
-    .stack2{
+    .stack2
+    {
         font-weight: bold;
         font-size: 18px;
         color: white;
@@ -1575,12 +1576,14 @@ a{color: white;}
         
     }
     
-    .bulle:hover span, .bulle:focus span{
+    .bulle:hover span, .bulle:focus span
+    {
         transform:scale(1) rotate(0);
         opacity:1;        
-      }
+    }
       
-      .bulle span{
+      .bulle span
+      {
         position:absolute;
         margin-top:-3%;
         margin-left:-15%;
@@ -1725,26 +1728,30 @@ a{color: white;}
     }
 
     .dark-mode .picture-me
-{
-    content: url("../img/picture_me_tel2.png");   
-    width: 40%;
-    margin: 5%;
-        margin-top: 10%;
-        margin-bottom: 5%;
-    border: 5px solid black;
-    box-shadow: 20px 20px 20px;
-    border-radius: 33%;
-}
+    {
+        content: url("../img/picture_me_tel2.png");   
+        width: 40%;
+        margin: 5%;
+            margin-top: 10%;
+            margin-bottom: 5%;
+        border: 5px solid black;
+        box-shadow: 20px 20px 20px;
+        border-radius: 33%;
+    }
 
   
 
-    .row3{ display: flex;
+    .row3
+    { 
+        display: flex;
         flex-direction: row;
         margin-top: 5%;
     }
     
     
-    .row4{ display: flex;
+    .row4
+    { 
+        display: flex;
         flex-direction: row;
         margin-top: 5%;
     }
@@ -1909,14 +1916,14 @@ a{color: white;}
     }
 
     .list2
-{
-    color: white;
-    font-size: 25px;
-    list-style: none;
-    margin: 5%;
-    
-    
-}
+    {
+        color: white;
+        font-size: 25px;
+        list-style: none;
+        margin: 5%;
+        
+        
+    }
 
     .row5
     {
@@ -1957,11 +1964,12 @@ a{color: white;}
     }
 
     .dark-mode .cercle
-{    
-    background-color:rgb(73, 73, 73);
-}
+    {    
+        background-color:rgb(73, 73, 73);
+    }
     
-    .inline {
+    .inline 
+    {
     
         display: flex;
         flex-direction: column;
@@ -1969,7 +1977,8 @@ a{color: white;}
         
     }
     
-    .stack{
+    .stack
+    {
         font-weight: bold;
         font-size: 18px;
         color: white;
@@ -1977,11 +1986,13 @@ a{color: white;}
     
     }
 
-    .display-3{
+    .display-3
+    {
         display: none;
     }
 
-    .display-4{
+    .display-4
+    {
         display: block;
     }
     
@@ -2002,14 +2013,16 @@ a{color: white;}
         
     }
     
-    .bulle:hover span, .bulle:focus span{
+    .bulle:hover span, .bulle:focus span
+      {
         transform:scale(1) rotate(0);
         opacity:1;        
       }
 
      
       
-      .bulle span{
+      .bulle span
+      {
         position:absolute;
         margin-top:-3%;
         margin-left:-15%;
@@ -2024,7 +2037,8 @@ a{color: white;}
         font-size: 20px;
       }
 
-      .bulle2 span{
+      .bulle2 span
+      {
         position:absolute;
         margin-top:-3%;
         margin-left:-5%;
@@ -2102,7 +2116,8 @@ a{color: white;}
       .circle-chart.theme05 .chart-circle-progress{stroke:black;}
       
       
-      .text-skill{
+      .text-skill
+      {
           color:white;
           font-weight: bold;
           font-family: Roboto;
@@ -2147,7 +2162,8 @@ a{color: white;}
         
 }
 
-.dark-mode {
+    .dark-mode 
+  {
     background-color: gray;
     color: black;
   }
