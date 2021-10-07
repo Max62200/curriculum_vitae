@@ -36,7 +36,7 @@ a{color: white;}
 
 .dark-mode .square-title
 {
-    background-color: #12769B;
+    background-color: #080808;
     height: 90px;
     margin-top: 9%;
     margin-left: 15%;
@@ -72,11 +72,28 @@ a{color: white;}
 .picture-me
 {
     content: url("../img/picture_me_tel.png");   
-    width: 100%;
-    
+    width: 85%;
     margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
     border: 5px solid black;
     box-shadow: 20px 20px 20px;
+    border-radius:33%;
+    background-color: #555;
+    
+    
+}
+
+.dark-mode .picture-me
+{
+    content: url("../img/picture_me_tel2.png");   
+    width: 85%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    border: 5px solid black;
+    box-shadow: 20px 20px 20px;
+    border-radius: 33%;
 }
 
 .big-title
@@ -238,7 +255,8 @@ a{color: white;}
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     width: 100%;
-    background-color: #3E3E3E;
+    background-color: rgb(35 34 34);
+    
 
 }
 
@@ -252,6 +270,8 @@ a{color: white;}
     background-color:white;
 
 }
+
+
 
 .laptop
 {
@@ -281,6 +301,11 @@ a{color: white;}
     line-height: 20px;
     border: 8px solid black;
     background-color: #38B6FF;
+}
+
+.dark-mode .cercle
+{    
+    background-color:rgb(73, 73, 73);
 }
 
 .display-4
@@ -434,7 +459,7 @@ a{color: white;}
 
 .dark-mode .square-title
 {
-    background-color: #12769b;
+    background-color: black;
     height: 120px;
     margin-top: 9%;
     margin-left: 15%;
@@ -475,6 +500,18 @@ a{color: white;}
     border: 5px solid black;
     box-shadow: 20px 20px 20px;
     content: url("../img/picture_me2.png");   
+}
+
+.dark-mode .picture-me
+{
+    content: url("../img/picture_me_tel2.png");   
+    width: 50%;
+    margin: 25%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border: 5px solid black;
+    box-shadow: 20px 20px 20px;
+    border-radius: 33%;
 }
 
 .big-title
@@ -612,7 +649,8 @@ a{color: white;}
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     width: 100%;
-    background-color: #3E3E3E;
+    background-color: rgb(35 34 34);
+    ;
 
 }
 
@@ -657,7 +695,10 @@ a{color: white;}
     background-color: #38B6FF;
 }
 
-
+.dark-mode .cercle
+{    
+    background-color:rgb(73, 73, 73);
+}
 .display-4
 {
     display: none;
@@ -809,7 +850,7 @@ a{color: white;}
 
     .dark-mode .square-title
     {
-        background-color: #12769b;
+        background-color: black;
         height: 120px;
         margin-top: 9%;
         margin-left: 15%;
@@ -843,8 +884,8 @@ a{color: white;}
     
     .picture-me
     {
-        width: 50%;
-        margin: 25%;
+        width: 60%;
+        margin: 20%;
         margin-top: 10%;
         margin-bottom: 5%;
         border: 5px solid black;
@@ -852,9 +893,20 @@ a{color: white;}
         content: url("../img/picture_me2.png"); 
     }
     
+    .dark-mode .picture-me
+{
+    content: url("../img/picture_me_tel2.png");   
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    border: 5px solid black;
+    box-shadow: 20px 20px 20px;
+    border-radius: 33%;
+}
     .big-title
     {
-        font-size: 35px;
+        font-size: 30px;
         color: black;
         font-weight: bolder;
         text-align: center;
@@ -867,7 +919,7 @@ a{color: white;}
     
     .big-title2
 {
-    font-size: 35px;
+    font-size: 30px;
     color: black;
     font-weight: bolder;
     text-align: center;
@@ -880,7 +932,7 @@ a{color: white;}
 
 .big-title3
 {
-    font-size: 35px;
+    font-size: 30px;
     color: black;
     font-weight: bolder;
     text-align: center;
@@ -900,7 +952,7 @@ a{color: white;}
     
     .icon2
     {
-        font-size: 75px;
+        font-size: 65px;
         color: black;
         font-weight: bolder;
         margin-top: 2.5%;
@@ -926,12 +978,21 @@ a{color: white;}
         font-weight: bolder;
         margin-top: 2%;
     }
+
+    .icon4
+{
+    font-size: 60px;
+    color: black;
+    font-weight: bolder;
+    margin-top: 2%;
+    margin-left: -5%;
+}
     
     
     .info
     {
         margin-left:2.5%;
-        font-size:27.5px;
+        font-size:20px;
         color: white;
     }
     
@@ -950,7 +1011,7 @@ a{color: white;}
     {
         display: flex;
         flex-direction: row;
-        margin-left: 40%;
+        margin-left: 30%;
         margin-bottom: 2.5%;
         
         
@@ -958,7 +1019,7 @@ a{color: white;}
     
     .logo
     {
-        width:40%;
+        width:35%;
         margin-left: 12.5%;
         margin-top: 2.5%;
     }
@@ -982,7 +1043,7 @@ a{color: white;}
         border-top: 3px solid black;
         border-bottom: 3px solid black;
         width: 100%;
-        background-color: #3E3E3E;
+        background-color: rgb(35 34 34);
     
     }
 
@@ -1006,7 +1067,7 @@ a{color: white;}
     .list
     {
         color: white;
-        font-size: 20px;
+        font-size: 15px;
         list-style: none;
         margin-left: 15%;
         
@@ -1017,15 +1078,20 @@ a{color: white;}
     
     .cercle{
         margin:15px;
-        width:150px;
+        width:120px;
         background:#fafafa;
-        height:150px;
+        height:120px;
         text-align:center;
         border-radius:50%;
         line-height: 30px;
         border: 8px solid black;
         background-color: #38B6FF;
     }
+
+    .dark-mode .cercle
+{    
+    background-color:rgb(73, 73, 73);
+}
 
     .display-4
     {
@@ -1042,7 +1108,7 @@ a{color: white;}
     
     .stack{
         font-weight: bold;
-        font-size: 17px;
+        font-size: 12px;
         color: white;
         margin-top: 17.5%;
     
@@ -1050,7 +1116,7 @@ a{color: white;}
 
     .stack2{
         font-weight: bold;
-        font-size: 18px;
+        font-size: 12px;
         color: white;
         margin-bottom: 10%;
         margin-top: 10%;
@@ -1164,7 +1230,7 @@ a{color: white;}
     .square-title
     {
         background-color: black;
-        height: 120px;
+        height: 140px;
         margin-top: 9%;
         margin-left: 15%;
         width:75%;
@@ -1177,8 +1243,8 @@ a{color: white;}
 
     .dark-mode .square-title
     {
-        background-color: #12769b;
-        height: 120px;
+        background-color: black;
+        height: 140px;
         margin-top: 9%;
         margin-left: 15%;
         width:75%;
@@ -1221,6 +1287,18 @@ a{color: white;}
         content: url("../img/picture_me2.png"); 
     }
     
+    .dark-mode .picture-me
+{
+    content: url("../img/picture_me_tel2.png");   
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    border: 5px solid black;
+    box-shadow: 20px 20px 20px;
+    border-radius: 33%;
+}
+
     .big-title
     {
         font-size: 35px;
@@ -1358,7 +1436,8 @@ a{color: white;}
         border-top: 3px solid black;
         border-bottom: 3px solid black;
         width: 100%;
-        background-color: #3E3E3E;
+        background-color: rgb(35 34 34);
+
     
     }
 
@@ -1403,6 +1482,11 @@ a{color: white;}
         background-color: #38B6FF;
     }
 
+    .dark-mode .cercle
+{    
+    background-color:rgb(73, 73, 73);
+}
+
     .display-4
         {
             display: none;
@@ -1436,8 +1520,8 @@ a{color: white;}
     
     .logo-loisirs
     {
-        width: 90%;
-        padding: 14%;
+        width: 70%;
+        padding: 10%;
     }
     
     .D-row2
@@ -1557,7 +1641,7 @@ a{color: white;}
 
     .dark-mode .square-title
     {
-        background-color: #12769b;
+        background-color: black;
         height:200px;
         margin-top: 9%;
         margin-left: 15%;
@@ -1591,7 +1675,7 @@ a{color: white;}
     
     .picture-me
     {
-        width: 35%;
+        width: 40%;
         margin: 5%;
         margin-top: 10%;
         margin-bottom: 5%;
@@ -1599,6 +1683,18 @@ a{color: white;}
         box-shadow: 20px 20px 20px;
         content: url("../img/picture_me2.png"); 
     }
+
+    .dark-mode .picture-me
+{
+    content: url("../img/picture_me_tel2.png");   
+    width: 40%;
+    margin: 5%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    border: 5px solid black;
+    box-shadow: 20px 20px 20px;
+    border-radius: 33%;
+}
 
   
 
@@ -1740,7 +1836,8 @@ a{color: white;}
         border-top: 3px solid black;
         border-bottom: 3px solid black;
         width: 100%;
-        background-color: #3E3E3E;
+        background-color: rgb(35 34 34);
+
     
     }
 
@@ -1808,6 +1905,11 @@ a{color: white;}
         border: 8px solid black;
         background-color: #38B6FF;
     }
+
+    .dark-mode .cercle
+{    
+    background-color:rgb(73, 73, 73);
+}
     
     .inline {
     
@@ -1982,11 +2084,13 @@ a{color: white;}
             text-align: center;
             text-decoration: underline;
         }
+
+        
 }
 
 .dark-mode {
-    background-color: #68C6E4;
-    color: white;
+    background-color: gray;
+    color: black;
   }
 
 
