@@ -103,4 +103,5 @@ element.classList.toggle("dark-mode");
     }
 
     chart_circle.call();
+    
 

@@ -2243,3 +2243,11 @@ hr
      transform: scale(1.15);
     transition: ease all 500ms;
 }
+
+
+.dark-mode .light{
+    color: white;
+    font-size: 30px;
+    padding: 1%;
+    position: fixed;
+}
