@@ -77,7 +77,12 @@ a{color: white;}
     
 }
 
-.span1{text-decoration: underline;}
+.span1
+{
+    text-decoration: underline;
+    margin-left: 2%;
+}
+
 
 .picture-me
 {
@@ -337,7 +342,7 @@ a{color: white;}
 .inline {
 
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
    margin-left: 10%;
     
 }
@@ -519,7 +524,11 @@ hr
     
 }
 
-.span1{text-decoration: underline;}
+.span1
+{   
+    text-decoration: underline;
+    margin-left: 2%;
+}
 
 .picture-me
 {
@@ -1699,13 +1708,12 @@ hr
     }
 
     
-    *{scroll-behavior: smooth;}
+    *{scroll-behavior:smooth;}
     
     .bg-1
     {
         background-color: #12769B;
-        border: 5px black solid;
-        
+        border:10px black solid;
     }
     
     .marg
