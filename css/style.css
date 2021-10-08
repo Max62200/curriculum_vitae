@@ -1641,7 +1641,7 @@ hr
         transition:all .25s;
         opacity:0;
         color:rgb(248, 248, 246);
-        font-size: 30px;
+        font-size: 20px;
       }
 
       .bulle2:hover span, .bulle2:focus span{
@@ -1661,7 +1661,7 @@ hr
         transition:all .25s;
         opacity:0;
         color:rgb(248, 248, 246);
-        font-size: 30px;
+        font-size: 20px;
       }
     
     #myBtn 
