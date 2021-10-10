@@ -199,11 +199,11 @@ a{color: white;}
 
 .icon4
 {
-    font-size: 60px;
+    font-size: 59px;
     color: black;
     font-weight: bolder;
-    margin-top: 2%;
-    margin-left: -5%;
+    margin-top: 6%;
+    margin-left: -20%;
 }
 
 .icon4:hover
@@ -1076,11 +1076,11 @@ hr
 
     .icon4
     {
-        font-size: 60px;
+        font-size: 59px;
         color: black;
         font-weight: bolder;
-        margin-top: 2%;
-        margin-left: -5%;
+        margin-top: 6%;
+        margin-left: 19%;
     }
     
     
@@ -1106,7 +1106,7 @@ hr
     {
         display: flex;
         flex-direction: row;
-        margin-left: 30%;
+        margin-left: 35%;
         margin-bottom: 2.5%;
         
         
@@ -1525,7 +1525,7 @@ hr
     {
         display: flex;
         flex-direction: row;
-        margin-left: 40%;
+        margin-left: 35%;
         margin-bottom: 2.5%;
         
         
@@ -1552,7 +1552,11 @@ hr
         transition: ease all 500ms;
     }
 
-    .icon4{margin-left: 57%;}
+    .icon4{    font-size: 65px;
+        color: black;
+        font-weight: bolder;
+        margin-top: 6%;
+        }
     
     .square-transition
     {
@@ -1932,7 +1936,11 @@ hr
         margin-top: 2%;
     }
     
-    .icon4{margin-left:100%;}
+    .icon4{margin-left: 95%;
+        font-size: 64px;
+        color: black;
+        font-weight: bolder;
+        margin-top: 11%;}
 
     .info
     {
