@@ -150,6 +150,17 @@ a{color: white;}
     
 }
 
+.big-title4
+{
+  margin-top:10%;
+  margin-bottom: 5%;
+  font-size: 25px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+}
+
 .icon
 {
     font-size: 30px;
@@ -237,6 +248,10 @@ a{color: white;}
     
     
 }
+
+
+.row6{flex-direction: row;
+margin-bottom: 10%;}
 
 .row8
 {
@@ -590,6 +605,17 @@ hr
     text-decoration: underline;
    
     
+}
+
+.big-title4
+{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 35px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
 }
 
 .icon
@@ -998,6 +1024,19 @@ hr
     
         
     }
+
+    .big-title4
+    {
+     
+      font-size: 35px;
+        color: black;
+        font-weight: bolder;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .row6{flex-direction: row;
+        margin-bottom: 10%;}
 
     .icon
     {
@@ -1413,6 +1452,17 @@ hr
         
     }
 
+    .big-title4
+    {
+      margin-top: 10%;
+      margin-bottom: 5%;
+      font-size: 35px;
+        color: black;
+        font-weight: bolder;
+        text-align: center;
+        text-decoration: underline;
+    }
+
     
     .icon
     {
@@ -1548,9 +1598,11 @@ hr
         font-size: 30px;
         list-style: none;
         margin: 5%;
-        
+
         
     }
+
+    .width-list{margin-left: 15%;}
     
     .span3{font-weight: bolder;}
     
@@ -1975,7 +2027,9 @@ hr
         color: white;
         font-size: 25px;
         list-style: none;
-        margin: 5%;
+        margin: 4%;
+        letter-spacing: 2px;
+        text-transform: uppercase;
         
         
     }
@@ -2055,13 +2109,12 @@ hr
     {
         width: 50%;
         padding: 4%;
-        margin-left: 45%;
+        
     }
     
     .D-row2
     {
-        display: flex;
-        flex-direction: row;
+       
         margin-bottom: 5%;
         
         
@@ -2184,14 +2237,19 @@ hr
 
       .logo-icon{font-size: 60px;}
 
-      .d-position{display: flex;}
+      .d-position
+        {
+          display: flex;
+          justify-content: space-between;
+        }
 
-      .margin-hobbies{margin-left: 15%;}
+      .row6{flex-direction: row;}
+
+      
       
       .width-list
         {
-          width: 200%;
-          margin-left: -50%;
+          width: 111%;
         }
 
       .big-title3
@@ -2204,6 +2262,19 @@ hr
             text-align: center;
             text-decoration: underline;
         }
+
+
+        
+      .big-title4
+      {
+        margin-top: 21%;
+        margin-bottom: 28%;
+        font-size: 35px;
+          color: black;
+          font-weight: bolder;
+          text-align: center;
+          text-decoration: underline;
+      }
 
         ::-webkit-scrollbar {
             width: 15px;
