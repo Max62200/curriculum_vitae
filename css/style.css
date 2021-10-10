@@ -2046,7 +2046,7 @@ hr
         flex-direction: row;
         height: 100%;
         width: 100%;
-       
+        margin-left: -10%;
     }
 
     .FM
