@@ -2241,6 +2241,7 @@ hr
         {
           display: flex;
           justify-content: space-between;
+          margin-bottom: -7.5%;
         }
 
       .row6{flex-direction: row;}
