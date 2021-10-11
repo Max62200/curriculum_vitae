@@ -1519,14 +1519,13 @@ hr
     
     .span1{text-decoration: underline;}
     
-    .picture-me
-    {
-        width: 30%;
+    .picture-me {
+        width: 40%;
         margin: 25%;
         margin-top: 10%;
-        margin-left: 37.5%;
+        margin-left: 30.5%;
         margin-bottom: 5%;
-        content: url("../img/me-avatar.png"); 
+        content: url(../img/me-avatar.png);
     }
 
     .bulle3:hover span, .bulle3:focus span
@@ -1993,7 +1992,7 @@ hr
     {
         width: 75%;
         margin: 5%;
-        margin-top: 10%;
+        margin-top: 28%;
         margin-bottom: 5%;
         content: url("../img/me-avatar.png"); 
     }
@@ -2010,7 +2009,7 @@ hr
       {
         position: absolute;
         text-align: center;
-        margin-top: -2%;
+        margin-top: 5%;
         margin-left: -25%;
         background: rgba(10, 10, 10, 0.9);
         padding: 15px;
@@ -2026,9 +2025,9 @@ hr
     .dark-mode .picture-me
     {
         content: url("../img/me-avatar.png");   
-        width: 30%;
+        width: 75%;
         margin: 5%;
-        margin-top: 10%;
+        margin-top: 28%;
         margin-bottom: 5%;
     }
 
