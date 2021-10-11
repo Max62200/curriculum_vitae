@@ -26,8 +26,7 @@ a{color: white;}
 .bg-1
 {
     background-color: #12769B;
-   
-    
+        
 }
 
 .square-title
@@ -38,9 +37,7 @@ a{color: white;}
     margin-left: 15%;
     width:75%;
     transform:skew(-20deg);
-	transform:skew(-20deg);
-	transform:skew(-20deg);
-	transform:skew(-20deg);
+	
     
 }
 
@@ -52,9 +49,7 @@ a{color: white;}
     margin-left: 15%;
     width:75%;
     transform:skew(-20deg);
-	transform:skew(-20deg);
-	transform:skew(-20deg);
-	transform:skew(-20deg);
+
     
 }
 
@@ -525,9 +520,7 @@ hr
     margin-left: 15%;
     width:75%;
     transform:skew(-20deg);
-	transform:skew(-20deg);
-	transform:skew(-20deg);
-	transform:skew(-20deg);
+	
     
 }
 
@@ -539,9 +532,7 @@ hr
     margin-left: 15%;
     width:75%;
     transform:skew(-20deg);
-	transform:skew(-20deg);
-	transform:skew(-20deg);
-	transform:skew(-20deg);
+
 }
 
 .name
@@ -976,10 +967,6 @@ hr
         margin-left: 15%;
         width:75%;
         transform:skew(-20deg);
-        transform:skew(-20deg);
-        transform:skew(-20deg);
-        transform:skew(-20deg);
-            
     }
 
     .dark-mode .square-title
@@ -989,9 +976,6 @@ hr
         margin-top: 9%;
         margin-left: 15%;
         width:75%;
-        transform:skew(-20deg);
-        transform:skew(-20deg);
-        transform:skew(-20deg);
         transform:skew(-20deg);
     }
     
@@ -1425,9 +1409,6 @@ hr
         margin-left: 15%;
         width:75%;
         transform:skew(-20deg);
-        transform:skew(-20deg);
-        transform:skew(-20deg);
-        transform:skew(-20deg);
             
     }
 
@@ -1438,9 +1419,6 @@ hr
         margin-top: 9%;
         margin-left: 15%;
         width:75%;
-        transform:skew(-20deg);
-        transform:skew(-20deg);
-        transform:skew(-20deg);
         transform:skew(-20deg);
     }
     
@@ -1886,9 +1864,6 @@ hr
         margin-left: 15%;
         width:75%;
         transform:skew(-20deg);
-        transform:skew(-20deg);
-        transform:skew(-20deg);
-        transform:skew(-20deg);
         
     }
 
@@ -1899,9 +1874,6 @@ hr
         margin-top: 9%;
         margin-left: 15%;
         width:75%;
-        transform:skew(-20deg);
-        transform:skew(-20deg);
-        transform:skew(-20deg);
         transform:skew(-20deg);
     }
     
