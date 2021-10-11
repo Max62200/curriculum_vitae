@@ -493,11 +493,14 @@ margin-bottom: 10%;}
 
 .bg-1
 {
-    background-color: #12769B;
+    background: linear-gradient(90deg, #12769B, rgb(7, 48, 87)); 
     border: 5px black solid;
-    
-    
+          
 }
+   
+    
+    
+
 
 hr
 { border: none;
@@ -950,10 +953,9 @@ hr
     
     .bg-1
     {
-        background-color: #12769B;
+        background: linear-gradient(90deg, #12769B, rgb(7, 48, 87)); 
         border: 5px black solid;
-        
-        
+              
     }
 
     .marg
@@ -1398,11 +1400,11 @@ hr
     }
     
     .bg-1
-    {
-        background-color: #12769B;
-        border: 5px black solid;
-        
-    }
+{
+    background: linear-gradient(90deg, #12769B, rgb(7, 48, 87)); 
+    border: 5px black solid;
+          
+}
     
     .square-title
     {
@@ -1849,11 +1851,10 @@ hr
     
     .bg-1
     {
-        background-color: #12769B;
-        border:10px black solid;
-        
+        background: linear-gradient(90deg, #12769B, rgb(7, 48, 87)); 
+        border: 5px black solid;
+              
     }
-    
     .marg
     {
         margin-left: 6%;
