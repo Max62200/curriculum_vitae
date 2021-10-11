@@ -25,9 +25,10 @@ a{color: white;}
 
 .bg-1
 {
-    background-color: #12769B;
-        
+    background: linear-gradient(90deg, #12769B, rgb(7, 48, 87));
+          
 }
+
 
 .square-title
 {
@@ -495,6 +496,7 @@ margin-bottom: 10%;}
     background-color: #12769B;
     border: 5px black solid;
     
+    
 }
 
 hr
@@ -950,6 +952,7 @@ hr
     {
         background-color: #12769B;
         border: 5px black solid;
+        
         
     }
 
@@ -1848,6 +1851,7 @@ hr
     {
         background-color: #12769B;
         border:10px black solid;
+        
     }
     
     .marg
@@ -2394,7 +2398,7 @@ hr
 
     .dark-mode 
   {
-    background-color: gray;
+    background: linear-gradient(90deg, gray, #282d31 );
     color: black;
   }
 
