@@ -90,6 +90,7 @@ a{color: white;}
     border-radius: 25%;
     background-color: white;
     border: black solid 5px;
+    box-shadow: black 15px 15px 15px;
     
 }
 
@@ -129,6 +130,7 @@ a{color: white;}
     margin-bottom: 10%;
    filter: grayscale(0.5);
    border: black solid 5px;
+   box-shadow: black 15px 15px 15px;
 
 }
 
@@ -598,6 +600,7 @@ hr
     margin-bottom: 5%;
     content: url("../img/me.webp");   
     border: black solid 5px;
+    box-shadow: black 15px 15px 15px;
 
 }
 
@@ -635,6 +638,7 @@ hr
     margin-bottom: 5%;
     filter: grayscale(0.5);
     border: black solid 5px;
+    box-shadow: black 15px 15px 15px;
 
 }
 
@@ -1064,6 +1068,7 @@ hr
         margin-left: 35%;
         content: url("../img/me.webp"); 
         border: black solid 5px;
+        box-shadow: black 15px 15px 15px;
 
     }
 
@@ -1101,6 +1106,7 @@ hr
         margin-bottom: 5%;
         filter: grayscale(0.5);
         border: black solid 5px;
+        box-shadow: black 15px 15px 15px;
 
 
     }
@@ -1540,6 +1546,7 @@ hr
         margin-bottom: 5%;
         content: url(../img/me.webp);
         border: black solid 5px;
+        box-shadow: black 15px 15px 15px;
 
     }
 
@@ -1577,6 +1584,7 @@ hr
         margin-bottom: 10%;
         filter: grayscale(0.5);
         border: black solid 5px;
+        box-shadow: black 15px 15px 15px;
 
 
     }
@@ -2015,6 +2023,7 @@ hr
         margin-bottom: 20%;
         content: url("../img/me.webp"); 
         border: black solid 5px;
+        box-shadow: black 15px 15px 15px;
 
     }
 
@@ -2052,6 +2061,7 @@ hr
         margin-bottom: 20%;
         filter: grayscale(0.5);
         border: black solid 5px;
+        box-shadow: black 15px 15px 15px;
 
 
     }
