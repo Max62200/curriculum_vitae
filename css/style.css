@@ -82,12 +82,12 @@ a{color: white;}
 
 .picture-me
 {
-    content: url("../img/me-avatar.png");   
-    width: 65%;
+    content: url("../img/me.png");   
+    width: 50%;
     margin-top: 10%;
-    margin-left: 17.5%;
+    margin-left: 25%;
     margin-bottom: 10%;
-    border-radius: 50%;
+    border-radius: 25%;
     background-color: white;
     
 }
@@ -106,8 +106,8 @@ a{color: white;}
       {
         position: absolute;
         text-align: center;
-        margin-top: 54%;
-        margin-left: -80%;
+        margin-top: 44%;
+        margin-left: -50%;
         background: rgba(10, 10, 10, 0.9);
         padding: 15px;
         border-radius: 34px;
@@ -122,12 +122,12 @@ a{color: white;}
 
 .dark-mode .picture-me
 {
-    content: url("../img/me-avatar.png");   
-    width: 65%;
+    content: url("../img/me.png");   
+    width: 50%;
     margin-top: 10%;
-    margin-left: 17.5%;
+    margin-left: 25%;
     margin-bottom: 10%;
-   
+   filter: grayscale(1);
 }
 
 .big-title
@@ -594,7 +594,7 @@ hr
     margin: 25%;
     margin-top: 10%;
     margin-bottom: 5%;
-    content: url("../img/me-avatar.png");   
+    content: url("../img/me.png");   
 }
 
 .bulle3:hover span, .bulle3:focus span
@@ -624,11 +624,12 @@ hr
 
 .dark-mode .picture-me
 {
-    content: url("../img/me-avatar.png");   
+    content: url("../img/me.png");   
     width: 50%;
     margin: 25%;
     margin-top: 10%;
     margin-bottom: 5%;
+    filter: grayscale(1);
 }
 
 .big-title
@@ -1050,12 +1051,12 @@ hr
     
     .picture-me
     {
-        width: 40%;
+        width: 35%;
         margin: 20%;
         margin-top: 10%;
         margin-bottom: 5%;
-        margin-left: 30%;
-        content: url("../img/me-avatar.png"); 
+        margin-left: 35%;
+        content: url("../img/me.png"); 
     }
 
     .bulle3:hover span, .bulle3:focus span
@@ -1085,11 +1086,13 @@ hr
     
     .dark-mode .picture-me
     {
-        content: url("../img/me-avatar.png");   
-        width: 40%;
+        content: url("../img/me.png");   
+        width: 35%;
         margin-top: 10%;
-        margin-left: 30%;
+        margin-left: 35%;
         margin-bottom: 5%;
+        filter: grayscale(1);
+
     }
 
     .big-title
@@ -1520,12 +1523,12 @@ hr
     .span1{text-decoration: underline;}
     
     .picture-me {
-        width: 40%;
+        width: 30%;
         margin: 25%;
         margin-top: 10%;
-        margin-left: 30.5%;
+        margin-left: 35%;
         margin-bottom: 5%;
-        content: url(../img/me-avatar.png);
+        content: url(../img/me.png);
     }
 
     .bulle3:hover span, .bulle3:focus span
@@ -1555,11 +1558,13 @@ hr
     
     .dark-mode .picture-me
     {
-        content: url("../img/me-avatar.png");   
+        content: url("../img/me.png");   
         width:30%;
         margin-top: 10%;
-        margin-left: 37.5%;
+        margin-left: 35%;
         margin-bottom: 10%;
+        filter: grayscale(1);
+
     }
 
     .big-title
@@ -1990,11 +1995,11 @@ hr
     
     .picture-me
     {
-        width: 75%;
+        width: 110%;
         margin: 5%;
-        margin-top: 28%;
-        margin-bottom: 5%;
-        content: url("../img/me-avatar.png"); 
+        margin-top: 60%;
+        margin-bottom: 20%;
+        content: url("../img/me.png"); 
     }
 
     .bulle3:hover span, .bulle3:focus span
@@ -2009,8 +2014,8 @@ hr
       {
         position: absolute;
         text-align: center;
-        margin-top: 5%;
-        margin-left: -25%;
+        margin-top: -20%;
+        margin-left: -15%;
         background: rgba(10, 10, 10, 0.9);
         padding: 15px;
         border-radius: 34px;
@@ -2024,11 +2029,13 @@ hr
 
     .dark-mode .picture-me
     {
-        content: url("../img/me-avatar.png");   
-        width: 75%;
+        content: url("../img/me.png");   
+        width: 110%;
         margin: 5%;
-        margin-top: 28%;
-        margin-bottom: 5%;
+        margin-top: 60%;
+        margin-bottom: 20%;
+        filter: grayscale(1);
+
     }
 
   
