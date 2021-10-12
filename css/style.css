@@ -82,7 +82,7 @@ a{color: white;}
 
 .picture-me
 {
-    content: url("../img/me.png");   
+    content: url("../img/me.webp");   
     width: 50%;
     margin-top: 10%;
     margin-left: 25%;
@@ -122,7 +122,7 @@ a{color: white;}
 
 .dark-mode .picture-me
 {
-    content: url("../img/me.png");   
+    content: url("../img/me.webp");   
     width: 50%;
     margin-top: 10%;
     margin-left: 25%;
@@ -596,7 +596,7 @@ hr
     margin: 25%;
     margin-top: 10%;
     margin-bottom: 5%;
-    content: url("../img/me.png");   
+    content: url("../img/me.webp");   
     border: black solid 5px;
 
 }
@@ -628,7 +628,7 @@ hr
 
 .dark-mode .picture-me
 {
-    content: url("../img/me.png");   
+    content: url("../img/me.webp");   
     width: 50%;
     margin: 25%;
     margin-top: 10%;
@@ -1062,7 +1062,7 @@ hr
         margin-top: 10%;
         margin-bottom: 5%;
         margin-left: 35%;
-        content: url("../img/me.png"); 
+        content: url("../img/me.webp"); 
         border: black solid 5px;
 
     }
@@ -1094,7 +1094,7 @@ hr
     
     .dark-mode .picture-me
     {
-        content: url("../img/me.png");   
+        content: url("../img/me.webp");   
         width: 35%;
         margin-top: 10%;
         margin-left: 35%;
@@ -1538,7 +1538,7 @@ hr
         margin-top: 10%;
         margin-left: 35%;
         margin-bottom: 5%;
-        content: url(../img/me.png);
+        content: url(../img/me.webp);
         border: black solid 5px;
 
     }
@@ -1570,7 +1570,7 @@ hr
     
     .dark-mode .picture-me
     {
-        content: url("../img/me.png");   
+        content: url("../img/me.webp");   
         width:30%;
         margin-top: 10%;
         margin-left: 35%;
@@ -2013,7 +2013,7 @@ hr
         margin: 5%;
         margin-top: 60%;
         margin-bottom: 20%;
-        content: url("../img/me.png"); 
+        content: url("../img/me.webp"); 
         border: black solid 5px;
 
     }
@@ -2045,7 +2045,7 @@ hr
 
     .dark-mode .picture-me
     {
-        content: url("../img/me.png");   
+        content: url("../img/me.webp");   
         width: 110%;
         margin: 5%;
         margin-top: 60%;
